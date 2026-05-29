@@ -23,5 +23,40 @@
 # Informe a quantidade de reais: 150
 # O valor em dólares é $26.55
 
-# ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+# ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO --------------------------------------------------------------
+
+print("1 - Dollar para Real")
+print("2 - Real para Dollar")
+
+opcao = int(input("Digite a opção: "))
+
+cotacao = float(input("Informe a cotação atual do Dollar: "))
+
+if opcao == 1:
+    dolar = float(input("Informe a quantidade de dólares: "))
+    real = dolar * cotacao
+
+    print(f"O valor em reais é R${real:.2f}")
+
+elif opcao == 2:
+    real = float(input("Informe a quantidade de reais: "))
+    dolar = real / cotacao
+
+    print(f"O valor em dólares é ${dolar:.2f}")
+
+else:
+    print("Opção inválida")\
+
+
+
+
+
+
+
+
+
+
+
+
+
 

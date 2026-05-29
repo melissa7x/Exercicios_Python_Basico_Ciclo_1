@@ -16,4 +16,30 @@
 # Aluno aprovado? False
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+nota1 = float(input("digite a primeira nota:"))
+nota2 = float(input("digite a segunda nota:"))
+
+if nota1> 7:
+    print("o aluno foi aprovado")
+else:
+    print("o aluno foi reprovado")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

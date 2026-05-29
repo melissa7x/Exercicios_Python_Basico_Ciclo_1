@@ -8,3 +8,19 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nota1= int(input("digite o primeiro número:"))
+nota2= int(input("digite o segundo número:"))
+
+soma= nota1 + nota2
+print("a soma entre nota1 e nota2 é:",soma)
+
+
+
+
+
+
+
+
+
+
+
